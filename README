@@ -1,0 +1,11 @@
+- note this script is extremely minimal
+  - it has a very cryptic take on the concept of a progress-bar
+  - idk how general the hack of ignoring 'Deleted Items' is; but it was
+    necessary in our setup (our imap server is microsoft exchange, sadly)
+- dependencies, on debian:
+  - libconfig-general-perl
+  - libnet-imap-simple-ssl-perl
+    - actually it's too old, so i had to grab these instead:
+      http://search.cpan.org/~jettero/Net-IMAP-Simple-1.1907/Simple.pod
+      http://search.cpan.org/dist/Net-IMAP-Simple-SSL/lib/Net/IMAP/Simple/SSL.pm
+
