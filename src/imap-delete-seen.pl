@@ -44,6 +44,7 @@ foreach my $folder (@folders) {
                 print $imap->expunge_mailbox($folder), "\n";
                 $offset += 100;
                 $deleted = 0;
+                print "Did $i of $num_messages in $folder.\n";
             }
         }
     }

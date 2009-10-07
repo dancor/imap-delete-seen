@@ -2,6 +2,7 @@
   - it has a very cryptic take on the concept of a progress-bar
   - idk how general the hack of ignoring 'Deleted Items' is; but it was
     necessary in our setup (our imap server is microsoft exchange, sadly)
+  - it's slow, my last run was over 2 minutes per 1000 messages-to-delete.
 - dependencies, on debian:
   - libconfig-general-perl
   - libnet-imap-simple-ssl-perl
